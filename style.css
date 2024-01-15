@@ -1,0 +1,227 @@
+/* Imports fonts. See fonts.google.com for more.*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  /* feel Free to replace the linear-gradient however you'd like!*/
+  background-image: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
+}
+
+body {
+  color: white !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  border-radius: 5%;
+  padding: 15px 15px 15px 15px;
+  line-height: 32px;
+  margin-left: 25px;
+}
+
+img {
+  border-radius: 10%;
+}
+
+header {
+  margin: 0px 0px 0px 0px;
+  /* Insert a URL */
+  background-image: url("");
+  /* Feel free to change the height and font */
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+h1,h2,h3,h4{
+  font-family: "Arvo", monospace;
+}
+
+button{
+  background-color: #1da58a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.square-button{
+  border-radius:5px;
+  padding:20px 20px 20px 20px;
+  background-color:#1da58a;
+  border:none;
+}
+a{
+  color:#1da58a;
+}
+a:active{
+  color:lightskyblue;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-image-text-element {
+  margin: 15px 15px 15px 15px;
+}
+
+.highlight {
+  color: #1da5a2;
+}
+
+.left-margin-twenty-five {
+  margin-left: 25px;
+}
+
+.center-container {
+  height: 500px;
+  position: relative;
+  border:none;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #10003d;
+  position: relative;
+}
+
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.topnav a:hover {
+  background-color: #1da58a;
+  color: black;
+}
+
+
+.active {
+  background-color: #021950;
+  color: white;
+}
+
+.element {
+  height: 600px;
+}
+
+.element img {
+  max-width: 300px;
+}
+
+.fifty-space {
+  height: 100px;
+}
+
+hr{
+  border-radius: 100px;
+  height:1.5px;
+  background-color:#f9f7f7;
+
+}
+nav{
+  float:left;
+  width:10%;
+  height:100%;
+  background-color:#292929;
+  margin:0px 10px 0px 0px;
+}
+.black-background{
+    background-color:black;
+}
+.white-backround{
+  background-color: #FFFFFF;
+}
+input{
+  border-radius: 50px;
+  padding:15px;
+}
+footer{
+  background-color:black;
+  position: absolute;
+  bottom:0px;
+  top:15px;
+  margin:0%;
+}
+
+
+abbr{
+  text-decoration:none;
+}
+.beach-background{
+  background-image: url(https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png);
+  min-width:90%;
+  min-height:90%;
+  background-size: cover;
+  border-radius:15px;
+}
+
