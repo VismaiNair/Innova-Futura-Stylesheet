@@ -79,8 +79,8 @@ button:hover span:after {
   opacity: 1;
   right: 0;
 }
-.square-button{
-  border-radius:5px;
+.slant-button, .faq-button, .square-button{
+  border-radius:1.5% 2.5%;
   padding:20px 20px 20px 20px;
   background-color:#1da58a;
   border:none;
