@@ -32,11 +32,11 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "Zilla Slab", sans-serif;
 }
 
 h1,h2,h3,h4{
-  font-family: "Arvo", monospace;
+  font-family: "Zilla Slab", monospace;
 }
 
 button{
