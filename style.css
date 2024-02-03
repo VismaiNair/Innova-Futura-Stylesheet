@@ -247,3 +247,7 @@ h1 {
 	animation: typing 8s steps(15),
 	           caret 1s steps(1) infinite;
 }
+.card {
+	background-color: grey;
+	border-radius: 5px;
+}
