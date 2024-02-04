@@ -223,25 +223,6 @@ abbr{
   text-decoration:none;
 }
 
-h1,h2,h3,h4{
-  font-family: monospace !important ;
-}
-@keyframes typing {
-	from { width: 0 }
-}
-
-@keyframes caret {
-	50% { border-right-color: transparent; }
-}
-
-h1 {
-	width: 15ch;
-	white-space: nowrap;
-	overflow: hidden;
-	border-right: .05em solid;
-	animation: typing 8s steps(15),
-	           caret 1s steps(1) infinite;
-}
 .card {
 	background-color: grey;
 	border-radius: 5%;
