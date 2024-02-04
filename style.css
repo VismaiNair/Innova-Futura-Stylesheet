@@ -49,7 +49,7 @@ button{
   margin: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  border-radius: 2.5% 5%;
+  border-radius: 2.5% 5% 2.5% 5%;
   padding: 20px;
   transition: all 0.5s;
 }
@@ -82,7 +82,7 @@ button:hover span:after {
   right: 0;
 }
 .slant-button, .faq-button, .square-button{
-  border-radius:1.5% 2.5%;
+  border-radius:1.5% 2.5% 1.5% 2.5%;
   padding:20px 20px 20px 20px;
   background-color:#1da58a;
   border:none;
