@@ -23,10 +23,10 @@ img {
   border-radius: 10%;
 }
 
-header h2, h3, h4, h5, h6 {
+header {
   margin: 0px 0px 0px 0px;
   /* Insert a URL */
-  background-image: url("");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4VVHzmhTxw8iXQEI79wib4Np-5pnvEzhBA&usqp=CAU");
   /* Feel free to change the height and font */
   min-height: 500px;
   background-attachment: fixed;
@@ -35,6 +35,8 @@ header h2, h3, h4, h5, h6 {
   background-size: cover;
   text-align: center;
   font-family: "Zilla Slab", "Raleway", sans-serif;
+  align-items: center;
+  margin:none;
 }
 
 button{
@@ -45,7 +47,7 @@ button{
   margin: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  border-radius: 5% 7.5% 5% 7.5%;
+  border-radius: 0.5rem 0.25rem 0.5rem 0.25rem;
   padding: 20px;
   transition: all 0.5s;
 }
