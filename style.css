@@ -24,9 +24,22 @@ img {
 }
 
 header {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Zilla Slab", "Raleway", sans-serif;
+  align-items: center;
+  margin:none;
   margin: 0px 0px 0px 0px;
+}
+
+.parallax {
+  
   /* Insert a URL */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4VVHzmhTxw8iXQEI79wib4Np-5pnvEzhBA&usqp=CAU");
+  background-image: url("https://lh3.googleusercontent.com/op/AGLvtZUPOzaEtwGA5erTjVfQVDttanyf5Rb8mrdx2u8VfgBDmGykBVptlbqyIE5MiF3eFUurOiHkZpDs4j-gDABxZFiPAI-OLQ=w213-h140-p");
   /* Feel free to change the height and font */
   min-height: 500px;
   background-attachment: fixed;
@@ -47,7 +60,7 @@ button{
   margin: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  border-radius: 0.5rem 0.25rem 0.5rem 0.25rem;
+  border-radius: 0.75rem 0.25rem 0.75rem 0.25rem;
   padding: 20px;
   transition: all 0.5s;
 }
