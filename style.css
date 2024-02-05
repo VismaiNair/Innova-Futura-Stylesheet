@@ -34,6 +34,7 @@ header {
   align-items: center;
   margin:none;
   margin: 0px 0px 0px 0px;
+  width: 100%;
 }
 
 .parallax {
@@ -50,6 +51,7 @@ header {
   font-family: "Zilla Slab", "Raleway", sans-serif;
   align-items: center;
   margin:none;
+  width: 100%;
 }
 
 button{
