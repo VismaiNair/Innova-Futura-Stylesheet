@@ -110,11 +110,13 @@ a:active{
 .float-right {
   float: right;
 	align-items: right;
+  justify-content: flex-end;
 }
 
 .float-left {
   float: left;
 	align-items: left;
+  justify-content: flex-start;
 }
 
 .float-image-text-element {
@@ -276,4 +278,7 @@ header { text-align: center; height: 3em; }
 main, footer {
 	display: block;
 	padding: .5em calc(50% - 400px);
+}
+footer {
+  flex-direction: column;
 }
