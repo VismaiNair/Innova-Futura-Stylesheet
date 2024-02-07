@@ -261,24 +261,3 @@ abbr{
   transition-duration: 0.75s;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-main {
-	flex: 1;
-}
-
-h1 { margin: .5em 0 0; }
-
-header { text-align: center; height: 3em; }
-
-main, footer {
-	display: block;
-	padding: .5em calc(50% - 400px);
-}
-footer {
-  flex-direction: column;
-}
