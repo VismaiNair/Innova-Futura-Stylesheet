@@ -6,6 +6,8 @@ html {
   /* feel Free to replace the linear-gradient however you'd like!*/
   background-image: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
   display: flex;
+  flex:1;
+
 	
 }
 
@@ -17,6 +19,7 @@ body {
   padding: 15px 15px 15px 15px;
   line-height: 32px;
   margin-left: 25px;
+
 }
 
 img {
@@ -255,9 +258,12 @@ abbr{
   color: white;
 
 }
-.secondary button:hover, .secondary button:focus {
+.secondary:hover, .secondary:focus {
   background-color:#1da58a;
   transition-property: background-color;
   transition-duration: 0.75s;
 }
 
+.row-layout {
+  flex-flow: row;
+}
