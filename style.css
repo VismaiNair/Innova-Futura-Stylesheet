@@ -252,18 +252,14 @@ abbr{
 	border-radius: 5%;
   flex-grow: 1;
 }
-.secondary button {
+.secondary, .secondary button {
   background-color:transparent;
   border-width: 1%;
-  color: white;
+  color: #1da58a;
 
-}
-.secondary:hover, .secondary:focus {
-  background-color:#1da58a;
-  transition-property: background-color;
-  transition-duration: 0.75s;
 }
 
 .row-layout {
   flex-flow: row;
 }
+
