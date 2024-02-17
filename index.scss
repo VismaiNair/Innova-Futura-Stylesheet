@@ -1,24 +1,24 @@
 $teal: #1da58a;
 $font-stack-text: "Raleway", "Comfortaa", "Trebuchet MS", "Lato", "Roboto", "Verdana", "Tahoma", sans-serif;
 $font-stack-heading: "Zilla Slab", "Roboto Mono", "Consolas", "Monospace";
-$website-linear-gradient: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
+$linear-gradient-dark: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
+$linear-gradient-light: linear-gradient(to right, #F4F6FF, #F4F6FF);
 $zero-pixels: 0px 0px 0px 0px;
-$starry-background-image:
-/* Imports fonts. See fonts.google.com for more.*/
+:root {
+  color-scheme: light dark;
+}
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&family=Roboto+Mono&display=swap');
 html {
   height: 100%;
   width: 100%;
   /* feel Free to replace the linear-gradient however you'd like!*/
-  background-image: $website-linear-gradient;
+  background-image: light-dark($linear-gradient-light, $linear-gradient-dark);
   display: flex;
   flex:1;
-
-	
 }
 
 body {
-  color: white !important;
+  color: light-dark(white !important, black !important);
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   border-radius: 5%;
@@ -46,7 +46,6 @@ header {
 }
 
 .parallax {
-  
   /* Insert a URL */
   background-image: url("https://lh3.googleusercontent.com/op/AGLvtZUPOzaEtwGA5erTjVfQVDttanyf5Rb8mrdx2u8VfgBDmGykBVptlbqyIE5MiF3eFUurOiHkZpDs4j-gDABxZFiPAI-OLQ=w213-h140-p");
   /* Feel free to change the height and font */
@@ -58,7 +57,7 @@ header {
   text-align: center;
   font-family: "Zilla Slab", "Raleway", sans-serif;
   align-items: center;
-  margin:none;
+  margin: $zero-pixels;
   width: 100%;
 }
 
@@ -76,7 +75,7 @@ button{
 }
 
 button:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: light-dark(none, 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19));
 }
 
 button span {
@@ -109,10 +108,7 @@ button:hover span:after {
   border:none;
 }
 a{
-  color: $;
-}
-a:active{
-  color:lightskyblue;
+  color: $teal;
 }
 
 .float-right {
@@ -123,7 +119,7 @@ a:active{
 
 .float-left {
   float: left;
-    align-items: left;
+  align-items: left;
   justify-content: flex-start;
 }
 
@@ -141,7 +137,7 @@ a:active{
 
 .topnav {
   overflow: hidden;
-  background-color: #10003d;
+  background-color: light-dark(#dcd0fc,#10003d);
   position: relative;
 }
 
@@ -152,7 +148,7 @@ a:active{
 
 
 .topnav a {
-  color: white;
+  color: light-dark(black, white);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -171,13 +167,13 @@ a:active{
 
 .topnav a:hover {
   background-color: #1da58a;
-  color: black;
+  color:light-dark(white, black);
 }
 
 
 .active {
-  background-color: #021950;
-  color: white;
+  background-color: light-dark(#d0deff, #021950);
+  color: light-dark(black, white);
 }
 
 .element {
@@ -199,14 +195,14 @@ a:active{
 hr{
   border-radius: 100px;
   height:1.5px;
-  background-color:#f9f7f7;
+  background-color:light-dark(black, white);
 
 }
 nav{
   float:left;
   width:10%;
   height:100%;
-  background-color:#292929;
+  background-color:l#292929;
   margin:0px 10px 0px 0px;
 }
 .black-background{
@@ -250,4 +246,3 @@ abbr{
 .row-layout {
   flex-flow: row;
 }
-
