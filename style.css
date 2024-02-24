@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&family=Roboto+Mono&display=swap");
 :root {
@@ -348,11 +349,26 @@ a:active{
 >>>>>>> parent of 40db66f (Minor Changes #1)
 .topnav a.icon {
   background: black;
+=======
+/* Error: Expected expression.
+ *   ,
+ * 7 | /* Imports fonts. See fonts.google.com for more.*∕
+ *   |                                                   ^
+ *   '
+ *   OneDrive\Documents\GitHub\Innova-Futura-Stylesheet\index.scss 7:51  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+>>>>>>> parent of 353114f (Using light-dark to add light mode)
   display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a   \2577 \a 7 \2502  /* Imports fonts. See fonts.google.com for more.*/\d\a   \2502                                                    ^\a   \2575 \a   OneDrive\\Documents\\GitHub\\Innova-Futura-Stylesheet\\index.scss 7:51  root stylesheet";
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,3 +538,5 @@ abbr{
 >>>>>>> parent of 40db66f (Minor Changes #1)
 =======
 >>>>>>> parent of 40db66f (Minor Changes #1)
+=======
+>>>>>>> parent of 353114f (Using light-dark to add light mode)
