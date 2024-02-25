@@ -3,8 +3,6 @@ $font-stack-text: "Raleway", "Comfortaa", "Trebuchet MS", "Lato", "Roboto", "Ver
 $font-stack-heading: "Zilla Slab", "Roboto Mono", "Consolas", "Monospace";
 $website-linear-gradient: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
 $zero-pixels: 0px 0px 0px 0px;
-$starry-background-image:
-/* Imports fonts. See fonts.google.com for more.*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&family=Roboto+Mono&display=swap');
 html {
   height: 100%;
@@ -109,7 +107,7 @@ button:hover span:after {
   border:none;
 }
 a{
-  color: $;
+  color: $teal;
 }
 a:active{
   color:lightskyblue;
