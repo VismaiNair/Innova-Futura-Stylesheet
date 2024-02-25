@@ -235,7 +235,7 @@ abbr {
 
 .secondary, .secondary button {
   background-color: transparent;
-  border-width: 1%;
+  border-width: 1rem;
   color: #1da58a;
 }
 
