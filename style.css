@@ -4,15 +4,14 @@ html {
   height: 100%;
   width: 100%;
   /* feel Free to replace the linear-gradient however you'd like!*/
-  background-image: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
+  background-image: linear-gradient(to right, #00062e, #000000);
   display: flex;
   flex: 1;
 }
 
 body {
-  color: white !important;
-  font-family: "Raleway", sans-serif;
-  font-weight: bolder;
+  color: #FFFFFF !important;
+  font-family: "Raleway", "Comfortaa", "Trebuchet MS", "Lato", "Roboto", "Verdana", "Tahoma", sans-serif;
   border-radius: 5%;
   padding: 15px 15px 15px 15px;
   line-height: 32px;
@@ -47,7 +46,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-family: "Zilla Slab", "Raleway", sans-serif;
+  font-family: "Zilla Slab", "Roboto Mono", "Consolas", "Monospace";
   align-items: center;
   margin: none;
   width: 100%;
@@ -59,7 +58,7 @@ button {
   color: #FFFFFF;
   text-align: center;
   margin: 5px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Comfortaa", "Trebuchet MS", "Lato", "Roboto", "Verdana", "Tahoma", sans-serif;
   font-weight: bold;
   border-radius: 0.75rem 0.25rem 0.75rem 0.25rem;
   padding: 20px;
@@ -67,7 +66,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2392156863), 0 17px 50px 0 rgba(0, 0, 0, 0.1882352941);
 }
 
 button span {
@@ -162,12 +161,12 @@ a:active {
 
 .topnav a:hover {
   background-color: #1da58a;
-  color: black;
+  color: #000000;
 }
 
 .active {
   background-color: #021950;
-  color: white;
+  color: #ffffff;
 }
 
 .element {
@@ -189,7 +188,7 @@ a:active {
 hr {
   border-radius: 100px;
   height: 1.5px;
-  background-color: #f9f7f7;
+  background-color: #ffffff;
 }
 
 nav {
@@ -201,7 +200,7 @@ nav {
 }
 
 .black-background {
-  background-color: black;
+  background-color: #000000;
   margin: 0rem;
 }
 
@@ -215,7 +214,7 @@ input {
 }
 
 footer {
-  background-color: black;
+  background-color: #000000;
   position: absolute;
   bottom: 0px;
   top: 15px;
@@ -229,14 +228,15 @@ abbr {
 }
 
 .card {
-  background-color: grey;
+  background-color: #808080;
   border-radius: 5%;
   flex-grow: 1;
 }
 
-.secondary, .secondary button {
+.secondary button {
   background-color: transparent;
   border-width: 1rem;
+  border-color: #1da58a;
   color: #1da58a;
 }
 

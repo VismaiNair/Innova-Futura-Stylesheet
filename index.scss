@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&family=Roboto+Mono&display=swap');
 $teal: #1da58a;
 $font-stack-text: "Raleway", "Comfortaa", "Trebuchet MS", "Lato", "Roboto", "Verdana", "Tahoma", sans-serif;
 $font-stack-heading: "Zilla Slab", "Roboto Mono", "Consolas", "Monospace";
-$website-linear-gradient: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
+$website-linear-gradient: linear-gradient(to right, #00062e, #000000);
 $zero-pixels: 0px 0px 0px 0px;
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&family=Roboto+Mono&display=swap');
+$shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
 html {
   height: 100%;
   width: 100%;
@@ -11,14 +12,11 @@ html {
   background-image: $website-linear-gradient;
   display: flex;
   flex:1;
-
-	
 }
 
 body {
-  color: white !important;
-  font-family: "Raleway", sans-serif;
-  font-weight: bolder;
+  color: #FFFFFF !important;
+  font-family: $font-stack-text;
   border-radius: 5%;
   padding: 15px 15px 15px 15px;
   line-height: 32px;
@@ -45,7 +43,6 @@ header {
 }
 
 .parallax {
-  
   /* Insert a URL */
   background-image: url("https://lh3.googleusercontent.com/op/AGLvtZUPOzaEtwGA5erTjVfQVDttanyf5Rb8mrdx2u8VfgBDmGykBVptlbqyIE5MiF3eFUurOiHkZpDs4j-gDABxZFiPAI-OLQ=w213-h140-p");
   /* Feel free to change the height and font */
@@ -55,19 +52,19 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-family: "Zilla Slab", "Raleway", sans-serif;
+  font-family: $font-stack-heading;
   align-items: center;
   margin:none;
   width: 100%;
 }
 
 button{
-  background-color: #1da58a;
+  background-color: $teal;
   border: none;
   color: #FFFFFF;
   text-align: center;
   margin: 5px;
-  font-family: "Raleway", sans-serif;
+  font-family: $font-stack-text;
   font-weight: bold;
   border-radius: 0.75rem 0.25rem 0.75rem 0.25rem;
   padding: 20px;
@@ -75,7 +72,7 @@ button{
 }
 
 button:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: $shadow;
 }
 
 button span {
@@ -122,7 +119,7 @@ a:active{
 
 .float-left {
   float: left;
-    align-items: left;
+  align-items: left;
   justify-content: flex-start;
 }
 
@@ -150,33 +147,36 @@ a:active{
 }
 
 
-.topnav a {
+.topnav {
+  a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: inline-block;
+  }
 }
 
-
-.topnav a.icon {
+.topnav {
+  a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
+  }
 }
 
 
 .topnav a:hover {
   background-color: #1da58a;
-  color: black;
+  color: #000000;
 }
 
 
 .active {
   background-color: #021950;
-  color: white;
+  color: #ffffff;
 }
 
 .element {
@@ -198,7 +198,7 @@ a:active{
 hr{
   border-radius: 100px;
   height:1.5px;
-  background-color:#f9f7f7;
+  background-color:#ffffff;
 
 }
 nav{
@@ -209,7 +209,7 @@ nav{
   margin:0px 10px 0px 0px;
 }
 .black-background{
-    background-color:black;
+    background-color:#000000;
     margin: 0rem;
 }
 .white-backround{
@@ -220,7 +220,7 @@ input{
   padding:15px;
 }
 footer{
-  background-color:black;
+  background-color:#000000;
   position: absolute;
   bottom:0px;
   top:15px;
@@ -235,18 +235,19 @@ abbr{
 }
 
 .card {
-	background-color: grey;
+	background-color: #808080;
 	border-radius: 5%;
   flex-grow: 1;
 }
-.secondary, .secondary button {
-  background-color: transparent;
-  border-width: 1rem;
-  color: #1da58a;
-
+.secondary{
+  button {
+    background-color: transparent;
+    border-width: 1rem;
+    border-color: $teal;
+    color: #1da58a;
+  }
 }
 
 .row-layout {
   flex-flow: row;
 }
-
